@@ -6,3 +6,7 @@
 
 *git commit -m:* The command only commits the staged files and does not handle staging automatically by itself. 
 
+![difference between command ](Git_GitHub_1.png ) 
+
+## 2. Git Cherry-Pick 
+
