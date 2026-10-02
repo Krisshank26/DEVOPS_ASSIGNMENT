@@ -1,1 +1,1 @@
-Hello friend. 
+Hello friend, file changed to experiment git commit -a -m command. 
