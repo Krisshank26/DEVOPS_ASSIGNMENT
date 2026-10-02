@@ -1,1 +1,1 @@
-Hello friend, file changed to experiment git commit -a -m command. 
+Hello friend, checking difference between git commit -a -m and git commit -m. 
