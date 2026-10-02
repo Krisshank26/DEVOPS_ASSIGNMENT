@@ -1,0 +1,276 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  0.1  24064  9764 ?        Ss   20:02   0:21 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    20:02   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    20:02   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/0:0H-kblockd]
+root          13  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    20:02   0:02 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    20:02   0:05 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    20:02   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          17  0.0  0.0      0     0 ?        S    20:02   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    20:02   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    20:02   0:00 [kprobe-optimizer]
+root          20  0.0  0.0      0     0 ?        S    20:02   0:00 [idle_inject/0]
+root          21  0.0  0.0      0     0 ?        S    20:02   0:00 [cpuhp/0]
+root          22  0.0  0.0      0     0 ?        S    20:02   0:01 [cpuhp/1]
+root          23  0.0  0.0      0     0 ?        S    20:02   0:00 [idle_inject/1]
+root          24  0.0  0.0      0     0 ?        S    20:02   0:00 [migration/1]
+root          25  0.0  0.0      0     0 ?        S    20:02   0:00 [ksoftirqd/1]
+root          27  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/1:0H-kblockd]
+root          28  0.0  0.0      0     0 ?        S    20:02   0:00 [cpuhp/2]
+root          29  0.0  0.0      0     0 ?        S    20:02   0:00 [idle_inject/2]
+root          30  0.0  0.0      0     0 ?        S    20:02   0:00 [migration/2]
+root          31  0.0  0.0      0     0 ?        S    20:02   0:00 [ksoftirqd/2]
+root          33  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/2:0H-kblockd]
+root          34  0.0  0.0      0     0 ?        S    20:02   0:01 [cpuhp/3]
+root          35  0.0  0.0      0     0 ?        S    20:02   0:00 [idle_inject/3]
+root          36  0.0  0.0      0     0 ?        S    20:02   0:00 [migration/3]
+root          37  0.0  0.0      0     0 ?        S    20:02   0:04 [ksoftirqd/3]
+root          39  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/3:0H-kblockd]
+root          40  0.0  0.0      0     0 ?        S    20:02   0:00 [kdevtmpfs]
+root          41  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-inet_frag_wq]
+root          42  0.0  0.0      0     0 ?        I    20:02   0:00 [rcu_tasks_kthread]
+root          43  0.0  0.0      0     0 ?        I    20:02   0:00 [rcu_tasks_rude_kthread]
+root          44  0.0  0.0      0     0 ?        S    20:02   0:00 [kauditd]
+root          45  0.0  0.0      0     0 ?        S    20:02   0:00 [khungtaskd]
+root          47  0.0  0.0      0     0 ?        S    20:02   0:00 [oom_reaper]
+root          49  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-writeback]
+root          51  0.0  0.0      0     0 ?        S    20:02   0:03 [kcompactd0]
+root          52  0.0  0.0      0     0 ?        SN   20:02   0:00 [ksmd]
+root          53  0.0  0.0      0     0 ?        SN   20:02   0:00 [khugepaged]
+root          54  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-kblockd]
+root          55  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-blkcg_punt_bio]
+root          56  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-kintegrityd]
+root          58  0.0  0.0      0     0 ?        S    20:02   0:00 [irq/9-acpi]
+root          60  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-tpm_dev_wq]
+root          61  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-ata_sff]
+root          62  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-md_bitmap]
+root          63  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-md_llbitmap_io]
+root          64  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-md_llbitmap_unplug]
+root          65  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-edac-poller]
+root          66  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-devfreq_wq]
+root          67  0.0  0.0      0     0 ?        S    20:02   0:00 [watchdogd]
+root          68  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-quota_events_unbound]
+root          69  0.2  0.0      0     0 ?        S    20:02   0:13 [kswapd0]
+root          70  0.0  0.0      0     0 ?        S    20:02   0:00 [ecryptfs-kthread]
+root          71  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-kthrotld]
+root          72  0.0  0.0      0     0 ?        S    20:02   0:00 [irq/121-aerdrv]
+root          73  0.0  0.0      0     0 ?        S    20:02   0:00 [irq/122-aerdrv]
+root          74  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-acpi_thermal_pm]
+root          76  0.0  0.0      0     0 ?        S    20:02   0:00 [hwrng]
+root          77  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-mld]
+root          78  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-ipv6_addrconf]
+root          79  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-kstrp]
+root          93  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-charger_manager]
+root         159  0.0  0.0      0     0 ?        S    20:02   0:00 [scsi_eh_0]
+root         160  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-scsi_tmf_0]
+root         162  0.0  0.0      0     0 ?        S    20:02   0:00 [scsi_eh_1]
+root         163  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-scsi_tmf_1]
+root         192  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/2:1H-i915_cleanup]
+root         193  0.0  0.0      0     0 ?        I<   20:02   0:03 [kworker/0:1H-i915_cleanup]
+root         229  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/3:1H-i915_cleanup]
+root         231  0.0  0.0      0     0 ?        S    20:02   0:01 [jbd2/sda6-8]
+root         232  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-ext4-rsv-conversion]
+root         272  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/1:1H-i915_cleanup]
+root         286  0.0  0.1  67564 13600 ?        S<s  20:02   0:02 /usr/lib/systemd/systemd-journald
+root         391  0.0  0.0  31296  3596 ?        Ss   20:02   0:00 /usr/lib/systemd/systemd-udevd
+root         435  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         510  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-cfg80211]
+systemd+     642  0.0  0.0  17580  2668 ?        Ss   20:02   0:04 /usr/lib/systemd/systemd-oomd
+systemd+     673  0.0  0.0  21752  5128 ?        Ss   20:02   0:02 /usr/lib/systemd/systemd-resolved
+root         700  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/R-ttm]
+root         716  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc0]
+root         717  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc1]
+root         718  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc2]
+root         730  0.3  0.0      0     0 ?        S    20:02   0:21 [irq/132-rtw88_pci]
+avahi        796  0.0  0.0   8772  2248 ?        Ss   20:02   0:00 avahi-daemon: running [krisshank-agarwal-HP-Laptop-15-di0xxx.local]
+root         797  0.0  0.0  13696  4204 ?        Ss   20:02   0:00 /usr/libexec/bluetooth/bluetoothd
+message+     798  0.1  0.0  12388  4564 ?        Ss   20:02   0:08 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+     801  0.0  0.0 365496  1352 ?        Ssl  20:02   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd      817  0.0  0.0 391016  6540 ?        Ssl  20:02   0:01 /usr/lib/polkit-1/polkitd --no-debug
+root         818  0.0  0.0 313536  4328 ?        Ssl  20:02   0:00 /usr/libexec/power-profiles-daemon
+root         822  0.1  0.2 1998936 21792 ?       Ssl  20:02   0:12 /snap/snapd/current/usr/lib/snapd/snapd
+root         823  0.0  0.0 314892  4320 ?        Ssl  20:02   0:01 /usr/libexec/accounts-daemon
+root         824  0.0  0.0   9436  1360 ?        Ss   20:02   0:00 /usr/sbin/cron -f -P
+root         825  0.0  0.0 309848  3296 ?        Ssl  20:02   0:00 /usr/libexec/switcheroo-control
+root         827  0.0  0.0  18192  4208 ?        Ss   20:02   0:00 /usr/lib/systemd/systemd-logind
+root         828  0.0  0.0 424892  4580 ?        Ssl  20:02   0:01 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root         829  0.0  0.0 470564  6552 ?        Ssl  20:02   0:04 /usr/libexec/udisks2/udisksd
+avahi        834  0.0  0.0   8496   108 ?        S    20:02   0:00 avahi-daemon: chroot helper
+syslog       856  0.0  0.0 222580  2828 ?        Ssl  20:02   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         903  0.0  0.1 338012 10840 ?        Ssl  20:02   0:03 /usr/sbin/NetworkManager --no-daemon
+root         904  0.0  0.0  18252  7544 ?        Ss   20:02   0:01 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         911  0.0  0.0 317376  5204 ?        Ssl  20:02   0:02 /usr/libexec/upowerd
+root        1047  0.0  0.0 318528  6100 ?        Ssl  20:02   0:00 /usr/sbin/ModemManager
+root        1283  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root        1286  0.0  0.0  38452  1492 ?        Ss   20:02   0:00 /usr/sbin/cupsd -l
+root        1295  0.0  0.0 112260   512 ?        Ssl  20:02   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1297  0.4  0.4 2048280 34540 ?       Ssl  20:02   0:28 /usr/bin/containerd
+colord      1316  0.0  0.0 320084  3908 ?        Ssl  20:02   0:00 /usr/libexec/colord
+root        1318  0.0  0.0 314840  4660 ?        Ssl  20:02   0:00 /usr/sbin/gdm3
+postgres    1378  0.0  0.0  86684  3552 ?        Ss   20:02   0:00 /usr/lib/postgresql/16/bin/postgres -D /var/lib/postgresql/16/main -c config_file=/etc/postgresql/16/main/postgresql.conf
+postgres    1401  0.0  0.0  86824  1148 ?        Ss   20:02   0:00 postgres: 16/main: checkpointer 
+postgres    1403  0.0  0.0  86816  1336 ?        Ss   20:02   0:00 postgres: 16/main: background writer 
+postgres    1417  0.0  0.0  86816   680 ?        Ss   20:02   0:00 postgres: 16/main: walwriter 
+postgres    1418  0.0  0.0  88308  3092 ?        Ss   20:02   0:00 postgres: 16/main: autovacuum launcher 
+postgres    1419  0.0  0.0  88276  2828 ?        Ss   20:02   0:00 postgres: 16/main: logical replication launcher 
+mysql       1430  1.1  0.0 2376416 6252 ?        Ssl  20:02   1:13 /usr/sbin/mysqld
+rtkit       1506  0.0  0.0  88492  1740 ?        SNsl 20:02   0:00 /usr/libexec/rtkit-daemon
+root        1593  0.0  0.0      0     0 ?        S<   20:02   0:00 [krfcommd]
+cups-br+    1639  0.0  0.0 268552  5196 ?        Ssl  20:03   0:00 /usr/sbin/cups-browsed
+root        1640  0.4  0.6 2538424 50432 ?       Ssl  20:03   0:28 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+mongodb     1642  1.2  0.4 572432 35648 ?        Ssl  20:03   1:14 /usr/bin/mongod --config /etc/mongod.conf
+kernoops    1643  0.0  0.0  12760  1272 ?        Ss   20:03   0:00 /usr/sbin/kerneloops --test
+kernoops    1646  0.0  0.0  12760  1280 ?        Ss   20:03   0:00 /usr/sbin/kerneloops
+root        2311  0.2  0.1 1268276 10872 ?       Sl   20:03   0:16 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 2a20d6d319773dd8afc86989e96ec0b04327c8072164aec5de98de788b3f12b4 -address /run/containerd/containerd.sock
+dnsmasq     2360  1.4  0.4 2399552 33656 ?       Ssl  20:03   1:29 mysqld
+root        2416  0.0  0.0 1886460  644 ?        Sl   20:03   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 3307 -container-ip 172.20.0.2 -container-port 3307 -use-listen-fd
+root        2422  0.0  0.0 1820852  632 ?        Sl   20:03   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 3307 -container-ip 172.20.0.2 -container-port 3307 -use-listen-fd
+root        2799  0.0  0.0      0     0 ?        I<   20:03   0:00 [kworker/R-dio/overlay]
+root        3174  0.0  0.0 390060  5392 ?        Sl   20:03   0:00 gdm-session-worker [pam/gdm-password]
+krissha+    3186  0.2  0.0  21940  7672 ?        Ss   20:03   0:17 /usr/lib/systemd/systemd --user
+krissha+    3191  0.0  0.0  21492   120 ?        S    20:03   0:00 (sd-pam)
+krissha+    3204  0.0  0.1 117268  9384 ?        Ssl  20:03   0:01 /usr/bin/pipewire
+krissha+    3205  0.0  0.0  97752   844 ?        Ssl  20:03   0:00 /usr/bin/pipewire -c filter-chain.conf
+krissha+    3209  0.0  0.1 406972  9776 ?        Ssl  20:03   0:01 /usr/bin/wireplumber
+krissha+    3212  0.0  0.1 126264  9548 ?        Ssl  20:03   0:01 /usr/bin/pipewire-pulse
+krissha+    3215  0.0  0.0 316636  5264 ?        SLsl 20:03   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+krissha+    3222  0.0  0.0  11164  4248 ?        Ss   20:03   0:05 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+krissha+    3263  0.0  0.0 610308  3988 ?        Ssl  20:03   0:00 /usr/libexec/xdg-document-portal
+krissha+    3267  0.0  0.0 309448  3128 ?        Ssl  20:03   0:00 /usr/libexec/xdg-permission-store
+root        3274  0.0  0.0   2716   172 ?        Ss   20:03   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+krissha+    3295  0.0  0.0 235680  3088 tty2     Ssl+ 20:03   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+krissha+    3300  0.0  0.0 298252  1400 tty2     Sl+  20:03   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+krissha+    3374  0.0  0.0 162668   580 ?        Ssl  20:03   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+krissha+    3375  0.0  0.0  91564   336 ?        Ssl  20:03   0:00 /usr/libexec/gnome-session-ctl --monitor
+krissha+    3389  0.0  0.0 314308  4008 ?        Ssl  20:03   0:00 /usr/libexec/gvfsd
+krissha+    3397  0.0  0.0 534484  3572 ?        Sl   20:03   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+krissha+    3405  0.0  0.0 668044  5372 ?        Ssl  20:03   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+krissha+    3456  0.0  0.0 383024  3520 ?        Sl   20:03   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+krissha+    3465  6.2  2.1 4928472 171600 ?      Ssl  20:03   6:22 /usr/bin/gnome-shell
+krissha+    3473  0.0  0.0   9632  2472 ?        S    20:03   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+krissha+    3617  0.0  0.0 236084  3524 ?        Sl   20:03   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+krissha+    3633  0.0  0.0 654820  6000 ?        Sl   20:03   0:00 /usr/libexec/gnome-shell-calendar-server
+krissha+    3640  0.0  0.0 1279968 5956 ?        Ssl  20:03   0:00 /usr/libexec/evolution-source-registry
+krissha+    3655  0.9  0.0 462516  5216 ?        Ssl  20:03   0:55 /usr/bin/ibus-daemon --panel disable
+krissha+    3656  0.0  0.0 383600  3296 ?        Ssl  20:03   0:00 /usr/libexec/gsd-a11y-settings
+krissha+    3663  0.0  0.0 413008  4972 ?        Ssl  20:03   0:00 /usr/libexec/gsd-color
+krissha+    3664  0.0  0.1 2662700 15156 ?       Sl   20:03   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+krissha+    3665  0.0  0.0 431756  3976 ?        Ssl  20:03   0:00 /usr/libexec/gsd-datetime
+krissha+    3668  0.0  0.0 459084  4792 ?        Ssl  20:03   0:04 /usr/libexec/gsd-housekeeping
+krissha+    3669  0.0  0.0 485596  4704 ?        Ssl  20:03   0:00 /usr/libexec/gsd-keyboard
+krissha+    3670  0.0  0.0 594184  7640 ?        Ssl  20:03   0:00 /usr/libexec/gsd-media-keys
+krissha+    3671  0.0  0.1 593080  8768 ?        Ssl  20:03   0:00 /usr/libexec/gsd-power
+krissha+    3674  0.0  0.0 323776  3852 ?        Ssl  20:03   0:00 /usr/libexec/gsd-print-notifications
+krissha+    3680  0.0  0.0 531096  3440 ?        Ssl  20:03   0:00 /usr/libexec/gsd-rfkill
+krissha+    3681  0.0  0.0 309572  3072 ?        Ssl  20:03   0:00 /usr/libexec/gsd-screensaver-proxy
+krissha+    3685  0.0  0.0 305504  4172 ?        Sl   20:03   0:00 /usr/libexec/gsd-disk-utility-notify
+krissha+    3695  0.0  0.1 831188  8216 ?        Sl   20:03   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+krissha+    3709  0.0  0.0 543540  5964 ?        Ssl  20:03   0:01 /usr/libexec/gsd-sharing
+krissha+    3710  0.0  0.0 385900  3352 ?        Ssl  20:03   0:00 /usr/libexec/gsd-smartcard
+krissha+    3722  0.0  0.0 393724  3436 ?        Ssl  20:03   0:00 /usr/libexec/gsd-sound
+krissha+    3723  0.0  0.0 486568  4868 ?        Ssl  20:03   0:00 /usr/libexec/gsd-wacom
+krissha+    3841  0.6  0.0 389536  6772 ?        Ssl  20:03   0:38 /usr/libexec/gvfs-udisks2-volume-monitor
+krissha+    3864  0.0  0.0 236656  3268 ?        Sl   20:03   0:00 /usr/libexec/ibus-memconf
+krissha+    3865  0.2  0.0 421488  6656 ?        Sl   20:03   0:14 /usr/libexec/ibus-extension-gtk3
+krissha+    3872  0.0  0.0 310436  3528 ?        Sl   20:03   0:00 /usr/libexec/ibus-portal
+krissha+    3873  0.1  0.1 852468 10900 ?        Sl   20:03   0:06 /snap/snap-store/1216/usr/bin/snap-store --gapplication-service
+krissha+    3885  0.0  0.0 546760  4912 ?        Sl   20:03   0:00 /usr/libexec/goa-daemon
+krissha+    3912  0.0  0.0 389136  3600 ?        Sl   20:03   0:00 /usr/libexec/goa-identity-service
+krissha+    3916  0.0  0.0 416256  4816 ?        Sl   20:03   0:00 /usr/libexec/gsd-printer
+krissha+    3917  0.0  0.0 1169500 7324 ?        Ssl  20:03   0:00 /usr/libexec/evolution-calendar-factory
+krissha+    3930  0.0  0.0 309784  3516 ?        Ssl  20:03   0:00 /usr/libexec/gvfs-goa-volume-monitor
+krissha+    3949  0.0  0.0 309804  3948 ?        Ssl  20:03   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+krissha+    3965  0.0  0.0 389392  3536 ?        Ssl  20:03   0:00 /usr/libexec/gvfs-afc-volume-monitor
+krissha+    3968  0.0  0.0 825536  6656 ?        Ssl  20:03   0:00 /usr/libexec/evolution-addressbook-factory
+krissha+    3976  0.0  0.0 310772  4012 ?        Ssl  20:03   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+krissha+    4028  0.2  0.0 236780  4344 ?        Sl   20:03   0:16 /usr/libexec/ibus-engine-simple
+krissha+    4046  0.0  0.0 230484  3888 ?        Ssl  20:03   0:00 /usr/libexec/dconf-service
+krissha+    4081  0.0  0.0 535724  5764 ?        Sl   20:03   0:01 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+krissha+    4106  0.0  0.1 738872 13220 ?        SNsl 20:03   0:04 /usr/libexec/tracker-miner-fs-3
+krissha+    4142  0.0  0.1 2654444 13504 ?       Sl   20:03   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+krissha+    4178  0.0  0.0 767256  6656 ?        Ssl  20:03   0:04 /usr/libexec/xdg-desktop-portal
+krissha+    4183  0.0  0.0 909464  7576 ?        Ssl  20:03   0:02 /usr/libexec/xdg-desktop-portal-gnome
+krissha+    4251  0.0  0.0 418072  5624 ?        Ssl  20:03   0:00 /usr/libexec/xdg-desktop-portal-gtk
+krissha+    4261  0.0  0.0 236492  3312 ?        Ssl  20:03   0:00 /usr/libexec/gvfsd-metadata
+root        4339  0.0  0.1 484656 12720 ?        Ssl  20:03   0:02 /usr/libexec/fwupd/fwupd
+krissha+    4376  0.0  0.0 303928   152 ?        Ssl  20:03   0:00 /snap/snapd-desktop-integration/391/usr/bin/user-session-helper /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+krissha+    4467  0.0  0.0 440216  3836 ?        Sl   20:03   0:00 /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+krissha+    4530  2.4  2.6 55738264 212932 ?     Sl   20:03   2:26 /opt/google/chrome/chrome
+krissha+    4536  0.0  0.0   8440   144 ?        S    20:03   0:00 cat
+krissha+    4537  0.0  0.0   8440   144 ?        S    20:03   0:00 cat
+krissha+    4544  0.0  0.0 54550020 1252 ?       Sl   20:03   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/krisshank-agarwal/.config/google-chrome/Crash Reports --metrics-dir=/home/krisshank-agarwal/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=151.0.7922.169 --initial-client-fd=5 --shared-client-connection
+krissha+    4546  0.0  0.0 54540784 324 ?        Sl   20:03   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/krisshank-agarwal/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=151.0.7922.169 --initial-client-fd=4 --shared-client-connection
+krissha+    4560  0.0  0.0 54972672 1388 ?       S    20:03   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --change-stack-guard-on-fork=enable
+krissha+    4561  0.0  0.0 54972660 1404 ?       S    20:03   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --change-stack-guard-on-fork=enable
+krissha+    4575  0.0  0.0 54972684 3504 ?       S    20:03   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --change-stack-guard-on-fork=enable
+krissha+    4606  2.0  1.1 55540756 92536 ?      Sl   20:03   2:04 /opt/google/chrome/chrome --type=gpu-process --ozone-platform=wayland --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --change-stack-guard-on-fork=enable --gpu-preferences=YAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAASAAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --metrics-shmem-handle=4,i,11689892237866938656,12361427078500004598,262144 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708988185955192
+krissha+    4610  0.8  0.9 54972696 79960 ?      Sl   20:03   0:51 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9211309174958874889,469144702402273506,524288 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708989122997041
+krissha+    4611  0.9  0.2 607520 19244 ?        Sl   20:03   1:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.1W2AW3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+krissha+    4687  0.0  0.0 791932  7152 ?        Ssl  20:03   0:00 /usr/libexec/gsd-xsettings
+krissha+    4702  0.0  0.3 55039940 26920 ?      Sl   20:03   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9509723273698391844,5090096954529586803,524288 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708990060038890
+krissha+    4735  0.0  0.0 267168  6148 ?        Sl   20:03   0:00 /usr/libexec/ibus-x11
+krissha+    4757  0.2  0.3 1189532 25612 ?       Sl   20:03   0:17 /usr/libexec/mutter-x11-frames
+krissha+    4799  0.0  0.6 1518366156 49856 ?    Sl   20:03   0:04 /opt/google/chrome/chrome --type=renderer --top-chrome-webui --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=54215328 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16421252905697804740,14505493459102029278,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708990997080739
+krissha+    4945  0.1  0.6 1520370544 49224 ?    Sl   20:03   0:11 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=11 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=57155549 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,8569671580953075059,9180183446782635790,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708996619331833
+krissha+    5443  1.1  2.8 1518399680 232140 ?   Sl   20:04   1:10 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=89567864 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15349257762068072492,15950874921765010030,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708997556373682
+krissha+    5449  0.0  1.4 1518359988 114516 ?   Sl   20:04   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=13 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=89588458 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,17397298228701643280,10134173781532931096,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708998493415531
+krissha+    5450  4.1  3.0 1518420888 245484 ?   Sl   20:04   4:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=14 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=89603997 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,2908931342610636760,15414333241354348474,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190708999430457380
+krissha+    5458  0.0  0.2 1518368708 21784 ?    Sl   20:04   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=89620146 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13222075089852327110,731970587716910948,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190709000367499229
+krissha+    5460  0.0  1.1 1518356676 90744 ?    Sl   20:04   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=16 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=89635515 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15919369660130427812,15494604213552710939,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190709001304541078
+krissha+    5536  2.1  1.5 1214148628 122352 ?   SLl  20:04   2:09 /usr/share/code/code
+krissha+    5542  0.0  0.0 33789324 944 ?        S    20:04   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+krissha+    5543  0.0  0.0 33789316 944 ?        S    20:04   0:00 /usr/share/code/code --type=zygote
+krissha+    5545  0.0  0.0 33789344 116 ?        S    20:04   0:00 /usr/share/code/code --type=zygote
+krissha+    5596  0.0  0.0 33576928 1152 ?       Sl   20:04   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/krisshank-agarwal/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=4a00fa67-fcaf-409a-ac3a-8afc5e41b2f8&iid=4a00fa67-fcaf-409a-ac3a-8afc5e41b2f8&sid=4a00fa67-fcaf-409a-ac3a-8afc5e41b2f8 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.95.3 --annotation=lsb-release=Ubuntu 24.04.4 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=32.2.1 --initial-client-fd=46 --shared-client-connection
+krissha+    5621  3.3  0.5 34306824 47680 ?      Sl   20:04   3:20 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=5596 --enable-crash-reporter=53769943-a742-4983-bb86-3d6acea96f4c,no_channel --user-data-dir=/home/krisshank-agarwal/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,10221034412311309269,2668588518468785186,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+krissha+    5626  0.2  0.3 33839636 25784 ?      Sl   20:04   0:12 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=5596 --enable-crash-reporter=53769943-a742-4983-bb86-3d6acea96f4c,no_channel --user-data-dir=/home/krisshank-agarwal/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10221034412311309269,2668588518468785186,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+krissha+    5671 14.1  3.1 1215892252 255412 ?   Sl   20:04  14:14 /usr/share/code/code --type=renderer --crashpad-handler-pid=5596 --enable-crash-reporter=53769943-a742-4983-bb86-3d6acea96f4c,no_channel --user-data-dir=/home/krisshank-agarwal/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration, --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=99355089 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10221034412311309269,2668588518468785186,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:b6b3524d-e9eb-47f7-b232-598c2a1c29c2
+krissha+    5710  0.0  0.2 55035412 19032 ?      Sl   20:04   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16102792991401353216,12841003296071547094,524288 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190709007863834021
+krissha+    5720  0.0  0.0 643336  7252 ?        Sl   20:04   0:00 /usr/bin/update-notifier
+krissha+    5762  0.4  0.5 1213951304 44376 ?    Sl   20:04   0:29 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=5596 --enable-crash-reporter=53769943-a742-4983-bb86-3d6acea96f4c,no_channel --user-data-dir=/home/krisshank-agarwal/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10221034412311309269,2668588518468785186,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+krissha+    5773  1.8  0.9 1217762200 76272 ?    Sl   20:04   1:51 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=5596 --enable-crash-reporter=53769943-a742-4983-bb86-3d6acea96f4c,no_channel --user-data-dir=/home/krisshank-agarwal/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10221034412311309269,2668588518468785186,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+krissha+    5791  1.9  0.9 1213942556 78836 ?    Sl   20:04   1:59 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=5596 --enable-crash-reporter=53769943-a742-4983-bb86-3d6acea96f4c,no_channel --user-data-dir=/home/krisshank-agarwal/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10221034412311309269,2668588518468785186,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+krissha+    5792  0.1  0.4 1213959444 33564 ?    Sl   20:04   0:09 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=5596 --enable-crash-reporter=53769943-a742-4983-bb86-3d6acea96f4c,no_channel --user-data-dir=/home/krisshank-agarwal/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,10221034412311309269,2668588518468785186,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --variations-seed-version
+krissha+    5865  0.0  0.0  15332  3316 pts/0    Ss   20:04   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+krissha+    6237  0.2  0.0 1211967788 5332 ?     Sl   20:04   0:12 /usr/share/code/code /usr/share/code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=5773
+krissha+    6280  0.0  0.0 1212000600 5484 ?     Sl   20:04   0:02 /usr/share/code/code /home/krisshank-agarwal/.vscode/extensions/redhat.vscode-yaml-1.24.0/dist/languageserver.js --node-ipc --clientProcessId=5773
+root        7692  0.0  0.0      0     0 ?        I    20:09   0:03 [kworker/1:0-events]
+krissha+   18311  0.0  0.0  31920   628 ?        S    20:42   0:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+krissha+   18314  0.0  0.0 459012  5268 ?        Sl   20:42   0:00 /usr/bin/gnome-terminal.real --wait
+krissha+   18320  0.6  0.4 700680 33876 ?        Ssl  20:42   0:25 /usr/libexec/gnome-terminal-server
+krissha+   18347  0.0  0.0  15308  3064 pts/1    Ss+  20:42   0:00 bash
+krissha+   20983  0.0  0.0 389388  3564 ?        Sl   20:50   0:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+root       25636  0.1  0.0      0     0 ?        I    21:03   0:04 [kworker/0:0-i915-unordered]
+root       26683  0.0  0.0      0     0 ?        I<   21:06   0:01 [kworker/u17:0-i915_flip]
+root       27261  0.0  0.0      0     0 ?        I    21:08   0:00 [kworker/2:0-i915-unordered]
+krissha+   27749  0.1  0.2 1212000572 17252 ?    Sl   21:10   0:02 /usr/share/code/code /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=5773
+root       28470  0.4  0.0      0     0 ?        I    21:12   0:09 [kworker/u16:18-events_unbound]
+root       28478  0.3  0.0      0     0 ?        I    21:12   0:07 [kworker/u16:25-flush-8:0]
+root       28485  0.2  0.0      0     0 ?        I    21:12   0:05 [kworker/u16:32-flush-8:0]
+root       28486  0.3  0.0      0     0 ?        I    21:12   0:06 [kworker/u16:33-flush-8:0]
+root       28493  0.4  0.0      0     0 ?        I    21:12   0:07 [kworker/u16:40-events_unbound]
+root       28827  0.0  0.0      0     0 ?        I    21:13   0:00 [kworker/3:0-events]
+root       28833  0.0  0.0      0     0 ?        S    21:13   0:00 [irq/130-mei_me]
+krissha+   29252  0.2  0.8 2946324 67852 ?       Sl   21:14   0:04 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+root       31597  0.2  0.0      0     0 ?        I    21:21   0:03 [kworker/u16:0-flush-8:0]
+root       31973  0.7  0.0      0     0 ?        I    21:22   0:09 [kworker/u16:1-events_unbound]
+root       32018  0.1  0.0      0     0 ?        I<   21:22   0:01 [kworker/u17:3-rtw_tx_wq]
+root       34161  0.3  0.0      0     0 ?        I    21:28   0:03 [kworker/u16:2-flush-8:0]
+root       34827  0.0  0.0      0     0 ?        I<   21:30   0:00 [kworker/u17:2-rtw_tx_wq]
+root       34938  0.3  0.0      0     0 ?        I    21:30   0:02 [kworker/u16:3-flush-8:0]
+root       36516  0.0  0.0      0     0 ?        I    21:35   0:00 [kworker/2:2-cgroup_release]
+root       37093  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/1:2-events]
+root       37113  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/3:1-events]
+root       37892  0.0  0.0      0     0 ?        I    21:38   0:00 [kworker/0:2-events]
+krissha+   38931  0.0  0.8 1518339256 65604 ?    Sl   21:41   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4544 --enable-crash-reporter=872592aa-d81b-4b8d-9ecc-8d2154a969a3, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=111 --time-ticks-at-unix-epoch=-1790605964037885 --launch-time-ticks=5939755980 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16546807835860750126,183372349329807546,2097152 --field-trial-handle=3,i,13701384091583126272,9203072003179060220,262144 --disable-features=EyeDropper --variations-seed-version=20260927-030045.469000-production --pseudonymization-salt-handle=7,i,10711203294359298115,4571309467562440780,4 --trace-process-track-uuid=3190709090323516733
+root       39463  0.0  0.0      0     0 ?        I    21:43   0:00 [kworker/1:1-cgroup_free]
+root       39638  0.0  0.0      0     0 ?        I    21:44   0:00 [kworker/2:1-events]
+krissha+   39881  0.0  0.0   9956  3728 pts/0    S+   21:44   0:00 bash practice_command.bash
+root       39901  0.0  0.0      0     0 ?        I    21:44   0:00 [kworker/3:2]
+krissha+   39923  400  0.0  13768  4792 pts/0    R+   21:44   0:00 ps aux
