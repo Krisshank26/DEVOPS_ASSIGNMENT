@@ -10,3 +10,4 @@
 
 ## 2. Git Cherry-Pick 
 
+![Git Cherry-Pick Command ](Git_GitHub_2.png ) 

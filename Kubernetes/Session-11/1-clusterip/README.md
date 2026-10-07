@@ -1,1 +1,0 @@
-![ClusterIP Nginx Image ](../../images/session-11/1-clusterip/Screenshot%20from%202026-09-18%2003-44-17.png ) 
